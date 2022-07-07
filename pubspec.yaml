@@ -1,0 +1,67 @@
+name: itda
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore:
+  firebase_auth:
+  firebase_database:
+  image_picker:
+  cupertino_icons:
+  firebase_core:
+  firebase_storage:
+  file_picker:
+  audio_recorder:
+  flutter_sound:
+  intl:
+  path_provider:
+  path:
+  permission_handler:
+  permissions_plugin:
+  file:
+  audioplayers:
+  dropdown_search:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  medcorder_audio:
+  permission_handler:
+  url_launcher:
+  flutter_audio_recorder:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - res/
+    - res/icons/ic_play.png
+    - res/icons/ic_play_disabled.png
+    - res/icons/2.0x/ic_play.png
+    - res/icons/3.0x/ic_play.png
+    - res/icons/ic_stop.png
+    - res/icons/ic_stop_disabled.png
+    - res/icons/2.0x/ic_stop.png
+    - res/icons/3.0x/ic_stop.png
+    - res/icons/ic_pause.png
+    - res/icons/ic_pause_disabled.png
+    - res/icons/2.0x/ic_pause.png
+    - res/icons/3.0x/ic_pause.png
+    - res/icons/ic_mic.png
+    - res/icons/ic_mic_disabled.png
+    - res/icons/2.0x/ic_mic.png
+    - res/icons/3.0x/ic_mic.png
+    - res/icons/ic_volume_down.png
+    - res/icons/2.0x/ic_volume_down.png
+    - res/icons/3.0x/ic_volume_down.png
+    - res/icons/ic_volume_up.png
+    - res/icons/2.0x/ic_volume_up.png
+    - res/icons/3.0x/ic_volume_up.png
+    - assets/samples/
+    - assets/canardo.png
+    - assets/
